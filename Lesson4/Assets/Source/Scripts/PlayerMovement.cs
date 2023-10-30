@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigitbody = GetComponent<Rigidbody>();
         Debug.Log("My mass" + "=" + _mass.Amount);
+        transform.localScale = new Vector3(3, 3, 3);
     }
     public void Update()
     {
